@@ -11,3 +11,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hero-btn{
+  width: 10rem;
+  margin: 0 auto;
+}
+
+.unordered-list{
+  display: flex;
+}
+
+li{
+  margin:1.1rem;
+}
+
+.press{
+  width:90%;
+}
+.ecosystem-image{
+  width:90%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.stats-img{
+  position: relative;
+  left: 3rem;
+}
+
+.education-img{
+  width:70%;
+}
+
+.logo-img{
+  margin-left:4rem ;
+  width: 25%;
+}
+
+.nav-zero{
+  height:3rem !important;
+}
+
+.nav-items{
+  margin-left: 100px;
+  padding:1.5rem;
+}
+
+.support-text{
+  font-size: 14px;
+}
+
+.logo-img {
+  max-height: 40px;
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+/* Limit navbar dropdown width and position */
+@media (max-width: 992px) {
+  .dropdown-menu-mobile {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 250px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    padding: 10px 0;
+  }
+
+  .dropdown-menu-mobile.collapse:not(.show) {
+    display: none;
+  }
+
+  .dropdown-menu-mobile ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .dropdown-menu-mobile .nav-link {
+    padding: 10px 20px;
+  }
+}
+
+.component-left-product, .component-right-product{
+  position: relative;
+  left:4%;
+
+}
+
+.ticket-creation {
+  position: relative;
+  left: 5%;
+}
