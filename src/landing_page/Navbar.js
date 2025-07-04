@@ -33,14 +33,14 @@ function Navbar() {
 
                         {/* Navigation Links */}
                         <li className="nav-item">
-                            <button
-                                className="btn btn-primary"
+                            <Link
+                                className="nav-link"
                                 onClick={() => {
                                     window.location.href = "http://localhost:3001";
                                 }}
                             >
                                 Go to Dashboard
-                            </button>
+                            </Link>
                         </li>
 
                         <li className="nav-item">
