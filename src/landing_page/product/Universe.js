@@ -40,7 +40,7 @@ function Universe() {
                         </div>
                         <div className=' text-center row mt-5 mb-5'>
                             <button className='btn p-2 btn-primary hero-btn fs-5' onClick={() => {
-                                window.location.href = "http://localhost:3001";
+                                window.location.href = "https://trading-app-dashboard-ebon.vercel.app/signup";
                             }}>
                                 Signup now
                             </button>
