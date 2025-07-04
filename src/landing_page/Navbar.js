@@ -36,7 +36,7 @@ function Navbar() {
                             <Link
                                 className="nav-link"
                                 onClick={() => {
-                                    window.location.href = "http://localhost:3001";
+                                    window.location.href = "https://trading-app-dashboard-ebon.vercel.app";
                                 }}
                             >
                                 Go to Dashboard
