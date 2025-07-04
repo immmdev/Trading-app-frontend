@@ -11,7 +11,7 @@ function Hero() {
                     Online platform to invest in stocks, derivatives, mutual funds, and more
                 </p>
                 <button className='btn p-2 btn-primary hero-btn fs-5' onClick={() => {
-                    window.location.href = "http://localhost:3001";
+                    window.location.href = "https://trading-app-dashboard-ebon.vercel.app/signup";
                 }}>
                     Signup now
                 </button>
